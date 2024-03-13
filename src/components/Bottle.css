@@ -1,0 +1,22 @@
+.bottles-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.bottles-container img{
+    width: 200px;
+}
+.bottle{
+    border: seagreen 1px solid;
+    margin: 15px;
+    padding: 15px;
+}
+.cartImg{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.cartImg img{
+    width: 50px;
+}
